@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'VogueFont';
+    src: url('your-vogue-font.woff2') format('woff2'),
+         url('your-vogue-font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+body {
+    background-image: linear-gradient(rgba(240, 240, 240, 0.7), rgba(240, 240, 240, 0.7)), url('joonie.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    font-family: 'VogueFont', sans-serif; 
+    color: #333; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-header h1 {
+    color: #6a0dad;
+    font-size: 48px;
+}
+
+.profile-header img {
+    display: inline-block;
+    margin: 0 10px;
+    max-width: 40%;
+    border-radius: 5%;
+    border: 4px solid #6a0dad;
+}
+
+.profile-content h2, .profile-content h3 {
+    color: #6a0dad;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile-content h3 {
+    font-size: 18px;
+}
+
+.profile-content p {
+    font-size: 18px; 
+    line-height: 1.6; 
+    text-align: justify; 
+    margin: 10px 0; 
+}
+
+.profile-content a {
+    color: #4b0f81; 
+    text-decoration: none; 
+}
+
+.profile-content a:hover {
+    text-decoration: underline; 
+}
+
+.profile-content ul {
+    list-style-type: none;
+    padding: 0; 
+}
+
+.profile-content ul li {
+    margin-bottom: 10px; 
+}
